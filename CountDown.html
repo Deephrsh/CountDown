@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Yearly Countdown</title>
+	<style type="text/css">
+		body{
+			margin: 0px;
+			padding: 0px;
+			background-image: url("https://images.wallpaperscraft.com/image/deer_silhouettes_wildlife_160565_1600x900.jpg");
+			background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+			font-family: sans-serif;
+		}
+		.txt{
+			font-size: 100px;
+			font-weight: bold;
+			font-family: serif;
+			margin: 0px;
+
+		}
+		.txt:hover{
+			color: firebrick;
+		}
+		.box{
+			display: flex;
+			width: 850px;
+			margin-top: 42vh;
+			margin-right: auto;
+			margin-left: auto;	
+			background-color: rgba(255, 99, 71, 0.8);
+			border: solid 1px black;		
+		}
+		.count{
+			text-align: center;
+			width: 400px;
+		}
+		.count span{
+			font-size: 30px;
+			font-family: serif;
+		}
+
+
+	</style>
+</head>
+<body>
+	<div class="box">
+		<div class="count days">
+			<p class="txt" id="days">0</p>
+			<span>Days</span>
+		</div>
+		<div class="count hours">
+			<p class="txt" id="hours">0</p>
+			<span>Hours</span>
+		</div>
+		<div class="count minutes">
+			<p class="txt" id="minutes">0</p>
+			<span>Minutes</span>
+		</div>
+		<div class="count seconds">
+			<p class="txt" id="seconds">0</p>
+			<span>Seconds</span>
+		</div>
+	</div>
+	<script src="timer.js"></script>
+
+
+</body>
+</html>
+
+
